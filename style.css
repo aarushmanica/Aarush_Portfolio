@@ -1,4 +1,5 @@
-/*#2d2d7f*/
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -6,6 +7,7 @@
 body {
   margin: 0px;
   font-family: 'segoe ui';
+  background-color: #2d2d7f;
 }
 
 .nav {
@@ -13,6 +15,7 @@ body {
   width: 100%;
   background-color: #4d4d4d;
   position: relative;
+  font-family: "Phudu";
 }
 
 .nav > .nav-header {
@@ -24,6 +27,11 @@ body {
   font-size: 22px;
   color: #fff;
   padding: 10px 10px 10px 10px;
+}
+
+#nav-text-logo {
+  text-decoration: none;
+  color: white;
 }
 
 .nav > .nav-btn {
@@ -44,7 +52,7 @@ body {
 }
 
 .nav > .nav-links > a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  color: black;
 }
 
 .nav > #nav-check {
@@ -95,4 +103,12 @@ body {
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
+}
+
+
+
+.main {
+  text-align: center;
+  font-family: "Quicksand";
+  color: #64E3B4;
 }
